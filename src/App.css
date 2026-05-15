@@ -5,3 +5,22 @@
   border-top: 2px solid white;
   border-bottom: 2px solid red;
 }
+.mainPage{
+  float: left;
+}
+.shoppingCart{
+  float: left;
+}
+.contact{
+  float: right;
+}
+
+.mainPage , .contact , .shoppingCart {
+  text-decoration: none;
+  color: white;
+  
+}
+.navBar{
+  padding: 20px;
+  background-color: ;
+}
