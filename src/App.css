@@ -18,11 +18,51 @@
 .mainPage , .contact , .shoppingCart {
   text-decoration: none;
   color: white;
+  width: 33%;
+  height: 30px;
   
+}
+.mainPage:hover , .contact:hover , .shoppingCart:hover{
+  background-color: gray;
 }
 .navBar{
   padding: 20px;
-  background-color:grey ;
-  background-color:gray ;
-
+  background-color:darkgrey ;
+  
+  height: 20px;
+}
+.Frame{
+  height: 80px;
+  border: 2px solid gray;
+  margin: 10px;
+}
+.foot{
+  padding :10px;
+  color: white;
+  font-style: italic;
+  background-color: gray;
+  margin-top: 20px;
+  
+}
+.primary{
+  background-color: rgb(58, 94, 255);
+  color: white;
+  border:none;
+  padding: 10px;
+  border-radius: 20px;
+}
+.secondary{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+}
+.danger{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  
 }
