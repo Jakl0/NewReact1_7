@@ -12,13 +12,15 @@ import PageLayout from './components/Layout/PageLayout'
 import Sidebar from './components/Layout/Sidebar'
 import ContentArea from './components/Layout/ContentArea'
 import WeatherCard from './components/WeatherCard'
-
+import ProductImage from './components/ProductImage'
+import Logo from "./assets/logofirmy.jpg"
+import AvatarList from "./components/AvatarList"
 function App() {
   
 
   return (
     <>
-      <WeatherCard city={"Zamość"} temperature={20} conditions={'sunny'} warning={"ZA DUŻA TEMPERATURA, PAMIĘTAĆ O NAWODNIENIU"}/>
+      <AvatarList users={[{name:"Justyna" , role:"nauczyciel" , id:4},{name:"Henryk" , role:"Reżyser" , id:2}]} />
     </>
   )
 }
